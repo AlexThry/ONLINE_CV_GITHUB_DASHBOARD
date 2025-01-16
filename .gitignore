@@ -10,7 +10,7 @@
 # Node modules
 **/node_modules
 
-/env/backend.env
+**/.env
 
 # Build outputs
 **/dist

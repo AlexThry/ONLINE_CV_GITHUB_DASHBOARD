@@ -16,4 +16,10 @@ export class GithubController {
   async getUserCommitsPerMonth(@Param('username') username: string) {
     return await this.githubService.getUserCommitsPerMonth(username);
   }
+
+  // Endpoint pour récupérer les 4 langages les plus utilisés par un utilisateur
+  @Get('user/:username/top-languages')
+  async getTopLanguages(@Param('username') username: string) {
+    return await this.githubService.getTopLanguages(username);
+  }
 }

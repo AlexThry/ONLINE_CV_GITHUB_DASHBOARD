@@ -5,7 +5,7 @@ import Timechart from "../components/timechart";
 function Dashboard() {
 	return (
 		<>
-			<div className="h-full flex-1 flex w-full flex-col gap-[25px] max-h-[600px] md:w-full md:flex-row">
+			<div className="h-full flex-1 flex w-full flex-col gap-[25px] sm:max-h-[600px] md:w-full md:flex-row">
 				<div className="h-full w-full md:w-[600px] gap-[25px] flex flex-col hxxl-2xl:w-[800px]">
                     <div className="w-full flex flex-1 p-[20px] bg-main-100 bg-opacity-10 border-main-100 border-opacity-10 border border-solid">
                         <Piechart/>
